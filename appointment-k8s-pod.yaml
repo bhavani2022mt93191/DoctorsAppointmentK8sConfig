@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-service-proxy
+  labels:
+    app: app-service-proxy
+spec:
+  containers:
+    - name: nodejs-appointment-service-container
+      image: bhavanipandranki/nodejs-appointment-service:0.1.0
+      ports:
+        - containerPort: 3004

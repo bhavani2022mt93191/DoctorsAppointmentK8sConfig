@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: user-service-proxy
+  labels:
+    app: user-service-proxy
+spec:
+  containers:
+    - name: nodejs-user-service-container
+      image: bhavanipandranki/nodejs-user-service:0.1.0
+      ports:
+        - containerPort: 3002
