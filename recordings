@@ -1,0 +1,4 @@
+This folder contains recording of 
+1) introductionAndRunServicesLocally:  demo video to explain your microservices, the database, and communication between the services (for points 1,2, and 3)
+2) servicesRunViaDocker: demo video to show various deployment options (for points 4 and 5)
+3) servicesRunOnMinikube:  demo video to show a demo about the minikube task and the Kubernetes cluster on the cloud (for points 6,7, and 8)
